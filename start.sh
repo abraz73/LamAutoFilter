@@ -4,7 +4,7 @@ then
   git clone https://github.com/abraz73/LamAutoFilter /LamAutoFilter
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /AutoFilterAdvance
+  git clone $UPSTREAM_REPO /LamAutoFilter
 fi
 cd /LamAutoFilter
 pip3 install -U -r requirements.txt
